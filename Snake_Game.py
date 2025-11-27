@@ -24,7 +24,7 @@ font_big = pygame.font.SysFont('sans', 50)
 score = 0
 pausing = False
 
-# ----- AI: move towards apple but check safety -----
+# AI: move towards apple but check safety 
 def safe_ai(head, apple, current_dir, body):
     hx, hy = head
     ax, ay = apple
